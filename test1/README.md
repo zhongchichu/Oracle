@@ -11,5 +11,5 @@ GROUP BY department_name;
 查询结果：
 
 ![chaxunyi](https://github.com/zhongchichu/Oracle/blob/master/test1/img/%E7%AC%AC%E4%B8%80%E6%9D%A1%E8%AF%AD%E5%8F%A5.png)
-![chaxunyi](https://github.com/zhongchichu/Oracle/blob/master/test1/img/%E7%AC%AC%E4%B8%80%E6%9D%A1%E8%AF%AD%E5%8F%A5.png)
+![chaxunyi](https://github.com/zhongchichu/Oracle/blob/master/test1/img/%E7%AC%AC%E4%BA%8C%E6%9D%A1%E8%AF%AD%E5%8F%A5.png)
 ![chaxunyi](https://github.com/zhongchichu/Oracle/blob/master/test1/img/%E7%AC%AC%E4%B8%80%E6%9D%A1%E8%AF%AD%E5%8F%A5.png)
