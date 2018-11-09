@@ -204,4 +204,5 @@ end;
 ~~~
 通过对i的求余判断分配不同的时间段和不同的产品id，将数据存入不同的分区，插入数据为1万条，执行时间 2.073秒。
 表创建成功:
-!(https://github.com/zhongchichu/Oracle/blob/master/test3/img/QQ%E6%88%AA%E5%9B%BE20181109105825.png)
+
+![](https://github.com/zhongchichu/Oracle/blob/master/test3/img/QQ%E6%88%AA%E5%9B%BE20181109105825.png)
