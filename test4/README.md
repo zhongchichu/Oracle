@@ -27,6 +27,7 @@ ALTER USER zhonghang QUOTA UNLIMITED ON USERS02;
 ALTER USER zhonghang QUOTA UNLIMITED ON USERS03;
 ALTER USER zhonghang ACCOUNT UNLOCK;
 ~~~
+![](https://github.com/zhongchichu/Oracle/blob/master/test4/images/QQ%E6%88%AA%E5%9B%BE20181115225902.png)
  为用户分配权限
 ~~~sql
 GRANT "CONNECT" TO zhonghang WITH ADMIN OPTION;
@@ -34,6 +35,9 @@ GRANT "RESOURCE" TO zhonghang WITH ADMIN OPTION;
 ALTER USER zhonghang DEFAULT ROLE "CONNECT","RESOURCE";
 ~~~
  系统分配权限
+ 
+ ![](https://github.com/zhongchichu/Oracle/blob/master/test4/images/5.png)
+ 
 ~~~sql
 GRANT CREATE VIEW TO ypan_user WITH ADMIN OPTION;
 ~~~
@@ -57,6 +61,10 @@ BEGIN
   end if;
 END;
 ~~~
+
+![](https://github.com/zhongchichu/Oracle/blob/master/test4/images/3.png)
+
+![](https://github.com/zhongchichu/Oracle/blob/master/test4/images/4.png)
 
 插入初始化数据
 ~~~sql
