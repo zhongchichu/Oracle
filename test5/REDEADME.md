@@ -36,7 +36,7 @@ create or replace PACKAGE BODY MyPack IS
     END;
 END MyPack;
 ~~~
-
+![](https://github.com/zhongchichu/Oracle/blob/master/test5/images/QQ%E6%88%AA%E5%9B%BE20181130210452.png)
 ## 调用函数及过程
 ~~~sql
 select count(*) from orders;
