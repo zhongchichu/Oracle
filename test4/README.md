@@ -39,7 +39,7 @@ ALTER USER zhonghang DEFAULT ROLE "CONNECT","RESOURCE";
  ![](https://github.com/zhongchichu/Oracle/blob/master/test4/images/5.png)
  
 ~~~sql
-GRANT CREATE VIEW TO ypan_user WITH ADMIN OPTION;
+GRANT CREATE VIEW TO zhonghang WITH ADMIN OPTION;
 ~~~
 
  添加实验所需表和相应触发器、序列、视图
@@ -106,9 +106,9 @@ insert into products (product_name,product_type) values ('paper3','耳机');
 ~~~sql
 WITH A (EMPLOYEE_ID,NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,SALARY,MANAGER_ID,DEPARTMENT_ID) AS
   (SELECT EMPLOYEE_ID,NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,SALARY,MANAGER_ID,DEPARTMENT_ID
-    FROM ypan_user.employees WHERE employee_ID = 11
+    FROM zhonghang.employees WHERE employee_ID = 11
     UNION ALL
   SELECT B.EMPLOYEE_ID,B.NAME,B.EMAIL,B.PHONE_NUMBER,B.HIRE_DATE,B.SALARY,B.MANAGER_ID,B.DEPARTMENT_ID
-    FROM A, ypan_user.employees B WHERE A.EMPLOYEE_ID = B.MANAGER_ID)
+    FROM A, zhonghang.employees B WHERE A.EMPLOYEE_ID = B.MANAGER_ID)
 SELECT * FROM A;
 ~~~
